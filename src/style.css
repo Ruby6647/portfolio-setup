@@ -21,7 +21,8 @@ h6{
 }
 
 h1{
-    font-size: 46px;
+    font-size: 44px;
+    line-height: 1.5;
 }
 
 h2{
@@ -77,6 +78,10 @@ p{
 }
 
 @media (max-width: 960px) {
+    .hero{
+        padding: 80px 20px;
+    }
+
     .project-description {
         padding: 0;
         text-align: center;
