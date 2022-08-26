@@ -15,21 +15,110 @@
     />
 </head>
 <body>
-    <div class="content-container container">
-    <div class="row">
-    <div class="col-lg-6">
-    <div class="content">
-    <h1>Hi I am Ruby Rose</h1> 
-    <h2 class="mb-4">Front-end Developer, based in Europe</h2>
-    <p class="mb-4">I have been coding for just about two years now and have loved every minute of it.
-    Coding opens up a whole new world of creativity, experiences and opportunites. No regrets ! 💯</p>
-    <a href="" class="btn btn-branding">See my projects</a>
-    </div>
-    </div>
-    <div class="col-lg-6 d-flex justify-content-center">
-    <img src="images/emoji.png" alt="" class="img-fluid">
-    </div>
-    </div>
-    </div>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="/" title="Homepage">
+            <img
+              src="images/logo.png"
+              class="logo d-none d-md-block"
+              alt="Ruby Logo"
+            />
+            <img
+              src="images/logo-small.jpg"
+              class="logo d-block d-md-none"
+              alt="Ruby Logo"
+            />
+          </a>
+          <ul>
+            <li>
+              <a href="/" title="Homepage"> Home</a>
+            </li>
+            <li class="active">
+              <a href="/about.html" title="About Ruby"> About</a>
+            </li>
+            <li>
+              <a href="/work.html" title="Ruby's work"> Work</a>
+            </li>
+            <li>
+              <a href="/contact.html" title="Contact Ruby Rose"> Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content-container container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="content">
+              <h1 class="mb-4">Hi, I’m Ruby Rose</h1>
+              <h2 class="mb-4">Front-end developer based in Europe </h2>
+              <p class="mb-5">
+                I’m currently seeking new opportunities in front-end development. I’m open to work remotely and have flexible hours. I’m highly skilled in JavaScript and React.
+              </p>
+              <a href="/work.html" class="btn btn-branding">See my projects</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/emoji.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Ruby Rose"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Email Ruby Rose"
+          >
+            helloimrue@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/helloimrue"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.instragram.com/helloiam-rue"
+            target="_blank"
+            title="instragram Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.twitter.com/helloimrue"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Ruby Rose, and is
+          <a
+            href="https://github.com/yungwrld/portfolio-setup"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
+      </footer> 
 </body>
 </html>
