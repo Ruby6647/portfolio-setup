@@ -150,6 +150,7 @@
   nav a:hover,
   nav li.active a {
     color: var(--branding-color);
+    text-decoration: none;
   }
   
   footer {
